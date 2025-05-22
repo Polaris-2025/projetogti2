@@ -68,9 +68,11 @@ Route::post('/salva-conta', function (Request $request) {
     })->name('salva-conta');
 
 
+// Topo
 
-
-
+Route::get('/cadastra-equipe', function () {
+    return view('cadastra-equipe');
+})->name('cadastra-equipe');
 
 
 
